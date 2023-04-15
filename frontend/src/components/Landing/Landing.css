@@ -1,0 +1,11 @@
+
+  @media (max-width: 639px) {
+    #home {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .flex {
+      flex-direction: column-reverse;
+    }
+  }
