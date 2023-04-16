@@ -76,7 +76,7 @@ export const frequency = [
   {
     id: "A1",
     label: "Daily",
-    description: "Receive daily tasks to boost your mood and manage depression.",
+    description: "Receive daily quotes to boost your mood and manage depression.",
   },
   
   {
