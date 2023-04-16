@@ -1,16 +1,16 @@
 export const modes = [
     {
-      id: "whatsapp",
+      id: "1",
       label: "Whatsapp",
       description: "Receive messages via Whatsapp only",
     },
     {
-      id: "in-app",
+      id: "2",
       label: "In-App Notification",
       description: "Receive messages via In-App Notification only",
     },
     {
-      id: "both",
+      id: "3",
       label: "Both",
       description: "Receive messages via both Whatsapp and In-App Notification",
     },
@@ -18,17 +18,17 @@ export const modes = [
 
  export const ages = [
     {
-      id: "10-20",
+      id: "a",
       label: "0-12",
       description: "Age range between 10-20 years old",
     },
     {
-      id: "13-19",
+      id: "b",
       label: "13-19",
       description: "Age range between 20-40 years old",
     },
     {
-      id: "40-60",
+      id: "c",
       label: "20+",
       description: "Age range between 40-60 years old",
     }
@@ -37,22 +37,22 @@ export const modes = [
 
   export const times = [
     {
-      id: "7-10",
+      id: "A",
       label: "7-10 am",
       description: "Receive messages between 7-10 am",
     },
     {
-      id: "10-12",
+      id: "B",
       label: "10-12 am",
       description: "Receive messages between 10-12 am",
     },
     {
-      id: "12-4",
+      id: "C",
       label: "12-4 pm",
       description: "Receive messages between 12-4 pm",
     },
     {
-      id: "6-12",
+      id: "D",
       label: "6-12 am",
       description: "Receive messages between 6-12 am",
     },
@@ -60,7 +60,7 @@ export const modes = [
 
   export const contents = [
     {
-      id: "Depression",
+      id: "dep",
       label: "Depression",
       description: "Receive Depression Videos",
     },
