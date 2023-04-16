@@ -5,7 +5,9 @@ function Pref() {
     
     const handleSubmit =async()=>
     {
-        const response =await axios.post("http://127.0.0.1:5000/url",{ageRange:selectedOption1,time:selectedOption1,mode:selectedOption3,type:selectedOption4});
+        const response =await axios.post("http://127.0.0.1:5000/url",{ageRange:selectedOption1,time:selectedOption2,mode:selectedOption3,type:selectedOption4});
+        var data = response;
+        console.log(data);
     }
       const [selectedOption1, setSelectedOption1] = useState("");
       const [selectedOption2, setSelectedOption2] = useState("");
