@@ -53,7 +53,7 @@ function Landing() {
     <div className=" p-5 w-full lg:w-1/2">
       <h2 class="mb-4 text-6xl tracking-tight font-extrabold text-yellow dark:text-yellow">Unleash Your</h2>
       <h2 class="mb-4 text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white">Inner Self</h2>
-      <p class="mb-5 lg:mb-16 font-light text-gray-500 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature?<br/> Need details about our Business plan? Let us know.</p>
+      <p class="mb-5 lg:mb-16 font-light text-gray-500 dark:text-gray-400 sm:text-xl">Got somethinng to say?<br/> Let us know.</p>
       <button onClick={handleSubmit} className=" text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Join Now</button>
     </div>
   

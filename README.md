@@ -11,7 +11,7 @@ With Notifier, you can rest assured that you will always have access to the late
 1. Mathew V Kariath [https://github.com/MVK2803]
 2.  Rajath Thomas Kurian [https://github.com/rajath-tk]
 ## Link to product walkthrough
-[link to video]
+[https://drive.google.com/file/d/1riOK6Vc8nWHHt3iHgAQ8Ac61ZYnORR2V/view?usp=sharing]
 ## How it Works ?
 Getting started with Notifier is easy. Create an account. Once you've created your account, you can customize your notification settings to receive updates about the resources that interest you the most. Whether you're interested in self-help books, podcasts, or movies, Notifier has something for everyone.
 ## Libraries used
