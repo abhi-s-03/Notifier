@@ -71,3 +71,22 @@ export const contents = [
     description: "Get resources like books, movies and podcasts for self-help",
   },
 ];
+
+export const frequency = [
+  {
+    id: "A1",
+    label: "Daily",
+    description: "Receive daily quotes to boost your mood and manage depression.",
+  },
+  
+  {
+    id: "A2",
+    label: "10 minutes ",
+    description: "Get resources like books, movies and podcasts for self-help",
+  },
+  {
+    id: "A3",
+    label: "20 minutes ",
+    description: "Get resources like books, movies and podcasts for self-help",
+  }
+];
