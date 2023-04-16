@@ -15,7 +15,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/pref" element={<Pref />} />
         <Route path="/new" element={<NewUser />} />
         <Route path="/dash" element={<Pref />} />
       </Routes>
