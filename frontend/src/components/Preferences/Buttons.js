@@ -19,24 +19,20 @@ export const modes = [
  export const ages = [
     {
       id: "10-20",
-      label: "10-20",
+      label: "0-12",
       description: "Age range between 10-20 years old",
     },
     {
-      id: "20-40",
-      label: "20-40",
+      id: "13-19",
+      label: "13-19",
       description: "Age range between 20-40 years old",
     },
     {
       id: "40-60",
-      label: "40-60",
+      label: "20+",
       description: "Age range between 40-60 years old",
-    },
-    {
-      id: "60-80",
-      label: "60-80",
-      description: "Age range between 60-80 years old",
-    },
+    }
+    
   ];
 
   export const times = [
@@ -64,18 +60,14 @@ export const modes = [
 
   export const contents = [
     {
-      id: "motivation",
-      label: "Motivation Videos",
-      description: "Receive Motivation Videos",
+      id: "Depression",
+      label: "Depression",
+      description: "Receive Depression Videos",
     },
+    
     {
-      id: "podcasts",
-      label: "Podcasts",
-      description: "Receive Podcasts",
-    },
-    {
-      id: "books",
-      label: "Books",
-      description: "Receive Books",
+      id: "all",
+      label: "All ",
+      description: "All of the Above",
     },
   ];
