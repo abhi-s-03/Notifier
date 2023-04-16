@@ -1,0 +1,150 @@
+{
+  "children": {
+    "books": [
+      {
+        "title": "The Power of Yet",
+        "author": "Maryann Cocca-Leffler",
+        "link": "https://www.amazon.com/dp/0807529786/"
+      },
+      {
+        "title": "What Do You Do With a Problem?",
+        "author": "Kobi Yamada",
+        "link": "https://www.amazon.com/dp/1943200009/"
+      },
+      {
+        "title": "The Dot",
+        "author": "Peter H. Reynolds",
+        "link": "https://www.amazon.com/dp/0763619612/"
+      },
+      {
+        "title": "The 7 Habits of Happy Kids",
+        "author": "Sean Covey",
+        "link": "https://www.amazon.com/dp/1416957764/"
+      },
+      {
+        "title": "Dream Big: Michael Jordan and the Pursuit of Excellence",
+        "author": "Deloris Jordan",
+        "link": "https://www.amazon.com/dp/0689833717/"
+      }
+    ],
+    "movies": [
+      {
+        "title": "Inside Out",
+        "director": "Pete Docter",
+        "link": "https://www.imdb.com/title/tt2096673/"
+      },
+      {
+        "title": "Up",
+        "director": "Pete Docter",
+        "link": "https://www.imdb.com/title/tt1049413/"
+      }
+    ],
+    "podcasts": []
+  },
+  "teenagers": {
+    "books": [
+      {
+        "title": "The 7 Habits of Highly Effective Teens",
+        "author": "Sean Covey",
+        "link": "https://www.amazon.com/dp/1476764662/"
+      },
+      {
+        "title": "Grit: The Power of Passion and Perseverance",
+        "author": "Angela Duckworth",
+        "link": "https://www.amazon.com/dp/1501111108/"
+      },
+      {
+        "title": "How to Win Friends and Influence People for Teen Girls",
+        "author": "Donna Dale Carnegie",
+        "link": "https://www.amazon.com/dp/1982149033/"
+      },
+      {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "link": "https://www.amazon.com/dp/0062315005/"
+      },
+      {
+        "title": "The Subtle Art of Not Giving a F*ck",
+        "author": "Mark Manson",
+        "link": "https://www.amazon.com/dp/0062457713/"
+      }
+    ],
+    "movies": [
+      {
+        "title": "The Pursuit of Happyness",
+        "director": "Gabriele Muccino",
+        "link": "https://www.imdb.com/title/tt0454921/"
+      },
+      {
+        "title": "The Social Dilemma",
+        "director": "Jeff Orlowski",
+        "link": "https://www.imdb.com/title/tt11464826/"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "TED Talks Daily",
+        "host": "TED",
+        "link": "https://www.ted.com/podcasts/ted-talks-daily"
+      },
+      {
+        "title": "The Mindful Minute",
+        "host": "Meryl Arnett",
+        "link": "https://www.merylarnett.com/themindfulminute"
+      }
+    ]
+  },
+  "adults": {
+    "books": [
+      {
+        "title": "The 7 Habits of Highly Effective People",
+        "author": "Stephen R. Covey",
+        "link": "https://www.amazon.com/dp/1982137274/"
+      },
+      {
+        "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+        "author": "James Clear",
+        "link": "https://www.amazon.com/dp/0735211299/"
+      },
+      {
+        "title": "The Power of Now: A Guide to Spiritual Enlightenment",
+        "author": "Eckhart Tolle",
+        "link": "https://www.amazon.com/dp/1577314808/"
+      },
+      {
+        "title": "Mindset: The New Psychology of Success",
+        "author": "Carol S. Dweck",
+        "link": "https://www.amazon.com/dp/0345472322/"
+      },
+      {
+        "title": "The 5 Love Languages: The Secret to Love That Lasts",
+        "author": "Gary Chapman",
+        "link": "https://www.amazon.com/dp/080241270X/"
+      }
+    ],
+    "movies": [
+      {
+        "title": "The Pursuit of Happyness",
+        "director": "Gabriele Muccino",
+        "link": "https://www.imdb.com/title/tt0454921/"
+      },
+      {
+        "title": "The Secret: Dare to Dream",
+        "director": "Andy Tennant",
+        "link": "https://www.imdb.com/title/tt4411584/"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "The Tim Ferriss Show",
+        "host": "Tim Ferriss",
+        "link": "https://tim.blog/podcast/"
+      },
+      {
+        "title": "The Daily Stoic",
+        "host": "Ryan Holiday",
+        "link": "https://dailystoic.com/podcast/"
+      }
+    ]
+  }
+}
