@@ -3,7 +3,13 @@ import { useState } from "react";
 import anim from "./animation.json"
 import Lottie from "lottie-react"
 import "./Landing.css"
+import { useNavigate } from 'react-router-dom';
 function Landing() {
+  const navigate = useNavigate();
+  const handleSubmit=()=>
+  {
+    navigate('/login');
+  }
   
 
   // IF YOU SEE THIS COMMENT: I HAVE GOOD EYESIGHT
@@ -21,7 +27,7 @@ function Landing() {
               <span class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">Notifier</span>
           </a>
           <div class="flex md:order-2">
-              <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login</button>
+              <button onClick={handleSubmit} type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login</button>
               <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
@@ -72,37 +78,7 @@ function Landing() {
     
   </div> 
 </section>
-<section id="#testimon">
-  
-<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Testimonials</h2>
-<figure class="max-w-screen-md mx-auto text-center">
-    <svg aria-hidden="true" class="w-12 h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
-    <blockquote>
-        <p class="text-2xl italic font-medium text-gray-900 dark:text-white">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl pretium fusce id velit ut tortor pretium viverra."</p>
-    </blockquote>
-    <figcaption class="flex items-center justify-center mt-6 space-x-3">
-        <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture"/>
-        <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-            <cite class="pr-3 font-medium text-gray-900 dark:text-white">Micheal Gough</cite>
-            <cite class="pl-3 text-sm text-gray-500 dark:text-gray-400">CEO at Google</cite>
-        </div>
-    </figcaption>
-</figure>
-<figure class="mt-3 max-w-screen-md mx-auto text-center">
-    <svg aria-hidden="true" class="w-12 h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
-    <blockquote>
-        <p class="text-2xl italic font-medium text-gray-900 dark:text-white">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl pretium fusce id velit ut tortor pretium viverra."</p>
-    </blockquote>
-    <figcaption class="flex items-center justify-center mt-6 space-x-3">
-        <img class="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture"/>
-        <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-            <cite class="pr-3 font-medium text-gray-900 dark:text-white">Mathew </cite>
-            <cite class="pl-3 text-sm text-gray-500 dark:text-gray-400">Student</cite>
-        </div>
-    </figcaption>
-</figure>
 
-</section>
 
 
 

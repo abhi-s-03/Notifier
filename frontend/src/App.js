@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Login from './components/Login/Login';
 
@@ -11,9 +11,15 @@ import Pref from './components/Preferences/Pref';
 
 function App() {
   return (
-    <div>
-      <Pref/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/pref" element={<Pref />} />
+        <Route path="/new" element={<NewUser />} />
+        <Route path="/dash" element={<Pref />} />
+      </Routes>
+    </Router>
   );
 }
 

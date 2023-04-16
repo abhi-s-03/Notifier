@@ -1,8 +1,12 @@
 import { useState } from 'react';
+import axios from 'axios'
 import  { ages, contents, modes, times } from './Buttons'
 function Pref() {
     
-   
+    const handleSubmit =async()=>
+    {
+        const response =await axios.post("http://127.0.0.1:5000/url",{ageRange:selectedOption1,time:selectedOption1,mode:selectedOption3,type:selectedOption4});
+    }
       const [selectedOption1, setSelectedOption1] = useState("");
       const [selectedOption2, setSelectedOption2] = useState("");
       const [selectedOption3, setSelectedOption3] = useState("");
@@ -231,7 +235,7 @@ function Pref() {
       
     
 </div>
-<button className=" mt-3 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Set Preferences</button>
+<button onClick={handleSubmit} className=" mt-3 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Set Preferences</button>
 </div>
 
 </div>
