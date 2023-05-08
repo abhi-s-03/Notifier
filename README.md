@@ -35,6 +35,6 @@ Requests==2.28.2
 ## How to Run
 1.Start the React development server by running the command npm start in the root directory of the project. This will start the frontend on localhost.
 
-2.Start the Flask backend by running the command python bacakend.py in the Backend directory. This will start the backend on localhost. Make sure to set the correct host address in the frontend code to connect it with the backend.
+2.Start the Flask backend by running the command python backend.py in the Backend directory. This will start the backend on localhost. Make sure to set the correct host address in the frontend code to connect it with the backend.
 
 3.Once both the frontend and backend are running, you can access notifier app by navigating to http://localhost:5000/ in your browser.
