@@ -7,7 +7,7 @@ For those dealing with depression or going through a breakup, Notifier offers su
 
 With Notifier, you can rest assured that you will always have access to the latest personal development resources and support to help you achieve your goals and overcome any obstacles in your path.
 ## Team members
-1. Abhishek S [https://github.com/ABCET]
+1. Abhishek S [https://github.com/abhi-s-03]
 1. Mathew V Kariath [https://github.com/MVK2803]
 2.  Rajath Thomas Kurian [https://github.com/rajath-tk]
 ## Link to product walkthrough
